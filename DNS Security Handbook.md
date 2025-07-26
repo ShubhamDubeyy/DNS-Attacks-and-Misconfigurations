@@ -1,12 +1,4 @@
-## 📚 **DNS Attacks and Misconfigurations**
-
-# 🧠 DNS Security Handbook
-
-A comprehensive, beginner-friendly guide to DNS attacks, misconfigurations, and security — with real-world analogies, outputs, and remediation.
-
----
-
-## 📚 DNS Attacks & Misconfigurations – Menu
+## 📚 DNS Attacks & Misconfigurations
 
 ### 🔍 Enumeration & Exposure
 

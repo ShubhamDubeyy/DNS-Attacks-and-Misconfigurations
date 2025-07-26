@@ -3,7 +3,7 @@
 ### 🔍 Enumeration & Exposure
 
 * [1. DNS Enumeration](#dns-enumeration)
-* [2. Zone Transfer Attack (AXFR Abuse)](#zone-transfer-attack-axfr-abuse)
+* [2. Zone Transfer Attack (AXFR Abuse)](#1-zone-transfer-attack-axfr-abuse)
 * [3. ANY Query Exploitation](#any-query-exploitation)
 * [4. Reverse DNS Enumeration](#reverse-dns-enumeration)
 * [5. DNS Zone Walking (with NSEC records)](#dns-zone-walking-with-nsec-records)
@@ -323,7 +323,7 @@ Awesome! Since you now understand DNS records, let’s dive into **DNS Enumerati
 
 ----------
 
-## 🕵️‍♂️ DNS Enumeration — Explained{#dns-enumeration}
+## 1. Zone Transfer Attack (AXFR Abuse)
 
 ## 📘 What is DNS Enumeration?
 

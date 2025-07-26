@@ -3,7 +3,7 @@
 - [1. DNS Enumeration](#1-dns-enumeration)
 - [2. Cache Poisioning](#2-dns-cache-poisoning)
 - [3. DNS Spoofing](#3-dns-spoofing)
-- [4. DNS Tunneling](#4-DNS-Tunneling)
+- [4. DNS Tunneling](#4-dns-tunneling)
 - [5. DNS Rebinding](#5-dns-rebinding)
 - [6. Subdomain Takeover](#6-subdomain-takeover)
 - [7. Typosquatting](#7-typosquatting)
@@ -876,7 +876,7 @@ bank.com.  3600  IN  A  104.20.50.12  ← Real IP
 
 ----------
 
-## 3. DNS Spoofing <a name="DNS-Spoofing"></a>
+## 3. DNS Spoofing <a name="dns-spoofing"></a>
 
 ### 📘 What Is It?
 
@@ -984,7 +984,7 @@ facebook.com. 3600 IN A 192.168.1.100  ← Attacker’s IP
 
 ----------
 
-## 4. DNS Tunneling <a name="4-DNS-Tunneling"></a>
+## 4. DNS Tunneling <a name="4-dns-tunneling"></a>
 
 ### 📘 What Is It?
 

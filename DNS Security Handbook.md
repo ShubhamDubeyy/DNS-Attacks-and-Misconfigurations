@@ -1,7 +1,7 @@
 ## 📚 DNS Attacks & Misconfigurations
 
 - [1. DNS Enumeration](#1-dns-enumeration)
-- [2. Zone Transfer Attack (AXFR Abuse)](#2-zone-transfer-attack-axfr-abuse)
+- [2. Cache Poisioning](#2-dns-cache-poisoning)
 - [3. DNS Spoofing](#3-DNS-Spoofing)
 - [4. DNS Tunneling](#4-DNS-Tunneling)
 - [5. DNS Rebinding](#5-dns-rebinding)
@@ -353,7 +353,7 @@ That’s **DNS Enumeration**.
 
 There are **3 main ways** to do it:
 
-## 2. Zone Transfer Attack (AXFR Abuse) <a name="2-zone-transfer-attack-axfr-abuse"></a>
+## Zone Transfer Attack (AXFR Abuse)
 
 ## 📘 What Is a Zone in DNS?
 
@@ -762,8 +762,7 @@ subfinder -d example.com
 
 ----------
 
-
-## 🔥 Attack #2: DNS Cache Poisoning
+## 2. DNS Cache Poisoning <a name="2-dns-cache-poisoning"></a>
 
 ### 📘 What Is It?
 

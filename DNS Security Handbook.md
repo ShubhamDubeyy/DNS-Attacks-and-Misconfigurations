@@ -875,8 +875,7 @@ bank.com.  3600  IN  A  104.20.50.12  ← Real IP
     
 
 ----------
-
-## 3. DNS Spoofing <a name="dns-spoofing"></a>
+## 3. DNS Spoofing <a name="3-dns-spoofing"></a>
 
 ### 📘 What Is It?
 
@@ -1316,7 +1315,7 @@ This is your signal 💡 — it’s dangling.
 
 ----------
 
-## 7. Typosquatting <a name="7-Typosquatting"></a>
+## 7. Typosquatting <a name="7-typosquatting"></a>
 
 ### 📘 What Is It?
 
@@ -1410,7 +1409,7 @@ whois faceb00k.com
 
 ----------
 
-## 8. Homograph Attack <a name="8-Homograph-Attack"></a>
+## 8. Homograph Attack <a name="8-homograph-attack"></a>
 
 ### 📘 What Is It?
 

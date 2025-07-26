@@ -1,134 +1,84 @@
 ## 📚 **DNS Attacks and Misconfigurations**
 
-### 🔍 Enumeration & Exposure
-    
--   [1. DNS Enumeration](#module1)
-  
--   [2. Zone Transfer Attack (AXFR Abuse)]
-    
--   [3. ANY Query Exploitation](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#any-query-exploitation)
-    
--   [4. Reverse DNS Enumeration](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#reverse-dns-enumeration)
-    
--   [5. DNS Zone Walking (with NSEC records)](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-zone-walking-with-nsec-records)
-    
--   [6. Cache Snooping](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#cache-snooping)
-    
+# 🧠 DNS Security Handbook
 
-----------
+A comprehensive, beginner-friendly guide to DNS attacks, misconfigurations, and security — with real-world analogies, outputs, and remediation.
+
+---
+
+## 📚 DNS Attacks & Misconfigurations – Menu
+
+### 🔍 Enumeration & Exposure
+
+* [1. DNS Enumeration](#dns-enumeration)
+* [2. Zone Transfer Attack (AXFR Abuse)](#zone-transfer-attack-axfr-abuse)
+* [3. ANY Query Exploitation](#any-query-exploitation)
+* [4. Reverse DNS Enumeration](#reverse-dns-enumeration)
+* [5. DNS Zone Walking (with NSEC records)](#dns-zone-walking-with-nsec-records)
+* [6. Cache Snooping](#cache-snooping)
 
 ### 🎭 Spoofing, Poisoning & Hijacking
 
--   [7. DNS Cache Poisoning](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-cache-poisoning)
-    
--   [8. DNS Spoofing](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-spoofing)
-    
--   [9. Kaminsky Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#kaminsky-attack)
-    
--   [10. Predictable TXID Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#predictable-txid-attack)
-    
--   [11. DNS Hijacking (incl. BGP-level)](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-hijacking-incl-bgp-level)
-    
--   [12. DNS Hijacking via Router Compromise](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-hijacking-via-router-compromise)
-    
--   [13. DNS MITM (Man-in-the-Middle)](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-mitm-man-in-the-middle)
-    
--   [14. Broken Root Hints Exploitation](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#broken-root-hints-exploitation)
-    
-
-----------
+* [7. DNS Cache Poisoning](#dns-cache-poisoning)
+* [8. DNS Spoofing](#dns-spoofing)
+* [9. Kaminsky Attack](#kaminsky-attack)
+* [10. Predictable TXID Attack](#predictable-txid-attack)
+* [11. DNS Hijacking (incl. BGP-level)](#dns-hijacking-incl-bgp-level)
+* [12. DNS Hijacking via Router Compromise](#dns-hijacking-via-router-compromise)
+* [13. DNS MITM (Man-in-the-Middle)](#dns-mitm-man-in-the-middle)
+* [14. Broken Root Hints Exploitation](#broken-root-hints-exploitation)
 
 ### 🕳️ Data Exfiltration & C2 Channels
 
--   [15. DNS Tunneling](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-tunneling)
-    
--   [16. DNS-based C2](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-based-command-and-control-c2)
-    
--   [17. Malicious Fast-Flux DNS](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#malicious-fast-flux-dns)
-    
--   [18. Domain Shadowing](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#domain-shadowing)
-    
--   [19. Domain Fronting](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#domain-fronting)
-    
-
-----------
+* [15. DNS Tunneling](#dns-tunneling)
+* [16. DNS-based Command and Control (C2)](#dns-based-command-and-control-c2)
+* [17. Malicious Fast-Flux DNS](#malicious-fast-flux-dns)
+* [18. Domain Shadowing](#domain-shadowing)
+* [19. Domain Fronting](#domain-fronting)
 
 ### 🧠 Social Engineering & UX Attacks
 
--   [20. Subdomain Takeover](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#subdomain-takeover)
-    
--   [21. Dangling CNAME Exploit](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dangling-cname-exploit)
-    
--   [22. Typosquatting](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#typosquatting)
-    
--   [23. Homograph Attacks](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#homograph-attacks)
-    
--   [24. Wildcard DNS Abuse](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#wildcard-dns-abuse)
-    
-
-----------
+* [20. Subdomain Takeover](#subdomain-takeover)
+* [21. Dangling CNAME Exploit](#dangling-cname-exploit)
+* [22. Typosquatting](#typosquatting)
+* [23. Homograph Attacks](#homograph-attacks)
+* [24. Wildcard DNS Abuse](#wildcard-dns-abuse)
 
 ### 🚿 Availability & Resource Exhaustion
 
--   [25. DNS Rebinding](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-rebinding)
-    
--   [26. DNS Amplification Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-amplification-attack)
-    
--   [27. Phantom Domain Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#phantom-domain-attack)
-    
--   [28. NXDOMAIN Flood Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#nxdomain-flood-attack)
-    
--   [29. DNS Water Torture Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-water-torture-attack)
-    
--   [30. DNS Reflection Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-reflection-attack)
-    
--   [31. DNS Flood Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-flood-attack)
-    
--   [32. DNS Resource Exhaustion](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-resource-exhaustion)
-    
--   [33. DNS Over TCP Exploits](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-over-tcp-exploits)
-    
-
-----------
+* [25. DNS Rebinding](#dns-rebinding)
+* [26. DNS Amplification Attack](#dns-amplification-attack)
+* [27. Phantom Domain Attack](#phantom-domain-attack)
+* [28. NXDOMAIN Flood Attack](#nxdomain-flood-attack)
+* [29. DNS Water Torture Attack](#dns-water-torture-attack)
+* [30. DNS Reflection Attack](#dns-reflection-attack)
+* [31. DNS Flood Attack](#dns-flood-attack)
+* [32. DNS Resource Exhaustion](#dns-resource-exhaustion)
+* [33. DNS Over TCP Exploits](#dns-over-tcp-exploits)
 
 ### 🔐 Encryption Protocol Abuse
 
--   [34. DNSSEC Downgrade Attack](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dnssec-downgrade-attack)
-    
--   [35. DNSSEC Stripping](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dnssec-stripping)
-    
--   [36. DNSSEC Key Management Abuse](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dnssec-key-management-abuse)
-    
--   [37. DNS over HTTPS (DoH) Abuse](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-over-https-doh-abuse)
-    
--   [38. DNS over TLS (DoT) Interception](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-over-tls-dot-interception)
-    
-
-----------
+* [34. DNSSEC Downgrade Attack](#dnssec-downgrade-attack)
+* [35. DNSSEC Stripping](#dnssec-stripping)
+* [36. DNSSEC Key Management Abuse](#dnssec-key-management-abuse)
+* [37. DNS over HTTPS (DoH) Abuse](#dns-over-https-doh-abuse)
+* [38. DNS over TLS (DoT) Interception](#dns-over-tls-dot-interception)
 
 ### 🔄 Misconfiguration & Policy Gaps
 
--   [39. Dynamic DNS Hijacking](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dynamic-dns-hijacking)
-    
--   [40. DNS Resolver Abuse](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-resolver-abuse)
-    
-
-----------
+* [39. Dynamic DNS Hijacking](#dynamic-dns-hijacking)
+* [40. DNS Resolver Abuse](#dns-resolver-abuse)
 
 ### ✉️ Email Authentication via DNS
 
--   [41. SPF Misconfiguration](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#spf-misconfiguration)
-    
--   [42. DKIM Misconfiguration](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dkim-misconfiguration)
-    
--   [43. DMARC Misconfiguration](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dmarc-misconfiguration)
-    
-    
+* [41. SPF Misconfiguration](#spf-misconfiguration)
+* [42. DKIM Misconfiguration](#dkim-misconfiguration)
+* [43. DMARC Misconfiguration](#dmarc-misconfiguration)
 
 ----------
 
 
-## 🧱 DNS Record Types — Explained Like You’re a Kid
+## 🧱 DNS Record Types
 
 Imagine DNS is a giant **address book** or **directory service** that helps computers find each other.
 
@@ -381,7 +331,7 @@ Awesome! Since you now understand DNS records, let’s dive into **DNS Enumerati
 
 ----------
 
-## <a name="module-1"></a> 🕵️‍♂️ DNS Enumeration — Explained
+## 🕵️‍♂️ DNS Enumeration — Explained{#dns-enumeration}
 
 ## 📘 What is DNS Enumeration?
 

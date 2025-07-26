@@ -1503,7 +1503,7 @@ echo "xn--pple-43d.com" | punycode --decode
 
 ----------
 
-## 9. Dangling CNAME Exploit <a name="9-Dangling-CNAME-Exploit"></a>
+## 9. Dangling CNAME Exploit <a name="9-dangling-cname-exploit"></a>
 
 ### 📘 What Is It?
 
@@ -1598,7 +1598,7 @@ No such app or 404 Heroku
 
 ----------
 
-## 10. DNS Amplification Attack <a name="10-DNS-Amplification-Attack"></a>
+## 10. DNS Amplification Attack <a name="10-dns-amplification-attack"></a>
 
 
 ### 📘 What Is It?
@@ -1680,8 +1680,7 @@ Now 100 pizza shops send you tons of pizza you never ordered — overwhelming yo
 -   Implement ingress/egress filtering (BCP 38)
     
 ----------
-
-## 👻 **11. Phantom Domain Attack**
+## 11. Phantom Domain Attack <a name="11-phantom-domain-attack"></a>
 
 ### 📘 What Is It?
 
@@ -1769,8 +1768,7 @@ Now imagine the server gets thousands of these per minute.
     
 
 ----------
-
-## 🔐 **12. DNSSEC Downgrade Attack**
+## 12. DNSSEC Downgrade Attack <a name="12-dnssec-downgrade-attack"></a>
 
 ### 📘 What Is It?
 
@@ -1861,8 +1859,7 @@ Your resolver never gets the RRSIG, so it can’t verify integrity.
     
 
 ----------
-
-## ✂️ **13. DNSSEC Stripping**
+## 13. DNSSEC Stripping <a name="13-dnssec-stripping"></a>
 
 
 ### 📘 What Is It?

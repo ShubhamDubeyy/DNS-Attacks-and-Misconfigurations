@@ -2,7 +2,7 @@
 
 - [1. DNS Enumeration](#1-dns-enumeration)
 - [2. Cache Poisioning](#2-dns-cache-poisoning)
-- [3. DNS Spoofing](#3-DNS-Spoofing)
+- [3. DNS Spoofing](#3-dns-spoofing)
 - [4. DNS Tunneling](#4-DNS-Tunneling)
 - [5. DNS Rebinding](#5-dns-rebinding)
 - [6. Subdomain Takeover](#6-subdomain-takeover)

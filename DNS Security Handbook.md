@@ -127,7 +127,7 @@
 ----------
 
 
-## 🧱 DNS Record Types — Explained Like You’re a Kid
+## 🧱 DNS Record Types
 
 Imagine DNS is a giant **address book** or **directory service** that helps computers find each other.
 

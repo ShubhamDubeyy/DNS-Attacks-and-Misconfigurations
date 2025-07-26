@@ -1,16 +1,10 @@
-Got it! Here's your DNS Attack **menu in Markdown format**, with **navigable links** that you can use in a Markdown-based handbook, blog, GitHub README, Obsidian vault, or MkDocs/Docsify project.
-
-Each link is designed to work with Markdown anchor tags (e.g., `#dns-cache-poisoning`), assuming each section in your handbook uses matching headers.
-
-----------
-
-## 📚 **DNS Attacks and Misconfigurations – Clickable Menu**
+## 📚 **DNS Attacks and Misconfigurations**
 
 ### 🔍 Enumeration & Exposure
-
--   [1. Zone Transfer Attack (AXFR Abuse)](#module1)
     
--   [2. DNS Enumeration](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#dns-enumeration)
+-   [1. DNS Enumeration](#module1)
+  
+-   [2. Zone Transfer Attack (AXFR Abuse)]
     
 -   [3. ANY Query Exploitation](https://chatgpt.com/c/6884edb3-5a78-832e-8800-e60804fc1f40#any-query-exploitation)
     
@@ -387,7 +381,7 @@ Awesome! Since you now understand DNS records, let’s dive into **DNS Enumerati
 
 ----------
 
-# ## <a name="module-1"></a> 🕵️‍♂️ DNS Enumeration — Explained
+## <a name="module-1"></a> 🕵️‍♂️ DNS Enumeration — Explained
 
 ## 📘 What is DNS Enumeration?
 

@@ -1,9 +1,9 @@
 ## 📚 DNS Attacks & Misconfigurations
 
-* [1. DNS Enumeration](#1-dns-enumeration)
-* [2. Zone Transfer Attack (AXFR Abuse)](#2-zone-transfer-attack-axfr-abuse)
-* [3. DNS Spoofing](#3-DNS-Spoofingn)
-* [4. DNS Tunneling](#4-DNS-Tunneling)
+- [1. DNS Enumeration](#1-dns-enumeration)
+- [2. Zone Transfer Attack (AXFR Abuse)](#2-zone-transfer-attack-axfr-abuse)
+- [3. DNS Spoofing](#3-DNS-Spoofing)
+- [4. DNS Tunneling](#4-DNS-Tunneling)
 - [5. DNS Rebinding](#5-dns-rebinding)
 - [6. Subdomain Takeover](#6-subdomain-takeover)
 - [7. Typosquatting](#7-typosquatting)
@@ -877,7 +877,7 @@ bank.com.  3600  IN  A  104.20.50.12  ← Real IP
 
 ----------
 
-## 3. DNS Spoofing <a name="DNS Spoofing"></a>
+## 3. DNS Spoofing <a name="DNS-Spoofing"></a>
 
 ### 📘 What Is It?
 
@@ -985,7 +985,7 @@ facebook.com. 3600 IN A 192.168.1.100  ← Attacker’s IP
 
 ----------
 
-## 🛰 4. DNS Tunneling <a name="4-DNS-Tunneling"></a>
+## 4. DNS Tunneling <a name="4-DNS-Tunneling"></a>
 
 ### 📘 What Is It?
 

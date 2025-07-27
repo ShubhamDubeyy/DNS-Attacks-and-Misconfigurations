@@ -10,7 +10,7 @@ A comprehensive, beginner-friendly guide to DNS attacks, misconfigurations, and 
 
 ### 🕵️ Enumeration & Reconnaissance
 
-* [1. DNS Enumeration](#1-dns-enumeration) <a name="1-dns-enumeration"></a>
+* [1. DNS Enumeration](#1-dns-enumeration)
 * [2. Cache Poisioning](#2-dns-cache-poisoning) <a name="2-dns-cache-poisoning"></a>
 * [3. Subdomain Takeover](#3-subdomain-takeover) <a name="3-subdomain-takeover"></a>
 * [4. Typosquatting](#4-typosquatting) <a name="4-typosquatting"></a>

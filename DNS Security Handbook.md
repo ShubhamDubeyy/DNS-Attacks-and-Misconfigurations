@@ -11,68 +11,68 @@ A comprehensive, beginner-friendly guide to DNS attacks, misconfigurations, and 
 ### 🕵️ Enumeration & Reconnaissance
 
 * [1. DNS Enumeration](#1-dns-enumeration)
-* [2. Cache Poisioning](#2-dns-cache-poisoning) <a name="2-dns-cache-poisoning"></a>
-* [3. Subdomain Takeover](#3-subdomain-takeover) <a name="3-subdomain-takeover"></a>
-* [4. Typosquatting](#4-typosquatting) <a name="4-typosquatting"></a>
-* [5. Homograph Attacks](#5-homograph-attacks) <a name="5-homograph-attacks"></a>
-* [6. Reverse DNS Enumeration](#6-reverse-dns-enumeration) <a name="6-reverse-dns-enumeration"></a>
-* [7. DNS Zone Walking (with NSEC records)](#7-dns-zone-walking-with-nsec-records) <a name="7-dns-zone-walking-with-nsec-records"></a>
+* [2. Cache Poisioning](#2-dns-cache-poisoning)
+* [3. Subdomain Takeover](#3-subdomain-takeover)
+* [4. Typosquatting](#4-typosquatting)
+* [5. Homograph Attacks](#5-homograph-attacks)
+* [6. Reverse DNS Enumeration](#6-reverse-dns-enumeration)
+* [7. DNS Zone Walking (with NSEC records)](#7-dns-zone-walking-with-nsec-records)
 
 ### 🎯 Integrity & Tampering
 
-* [8. DNS Spoofing](#8-dns-spoofing) <a name="8-dns-spoofing"></a>
-* [9. Phantom Domain Attack](#9-phantom-domain-attack) <a name="9-phantom-domain-attack"></a>
-* [10. DNSSEC Downgrade Attack](#10-dnssec-downgrade-attack) <a name="10-dnssec-downgrade-attack"></a>
-* [11. DNSSEC Stripping](#11-dnssec-stripping) <a name="11-dnssec-stripping"></a>
-* [12. Predictable TXID Attack](#12-predictable-txid-attack) <a name="12-predictable-txid-attack"></a>
-* [13. Kaminsky Attack](#13-kaminsky-attack) <a name="13-kaminsky-attack"></a>
-* [14. ANY Query Exploitation](#14-any-query-exploitation) <a name="14-any-query-exploitation"></a>
+* [8. DNS Spoofing](#8-dns-spoofing)
+* [9. Phantom Domain Attack](#9-phantom-domain-attack)
+* [10. DNSSEC Downgrade Attack](#10-dnssec-downgrade-attack)
+* [11. DNSSEC Stripping](#11-dnssec-stripping)
+* [12. Predictable TXID Attack](#12-predictable-txid-attack)
+* [13. Kaminsky Attack](#13-kaminsky-attack)
+* [14. ANY Query Exploitation](#14-any-query-exploitation)
 
 ### 🧬 Data Exfiltration & Covert Channels
 
-* [15. DNS Tunneling](#15-dns-tunneling) <a name="15-dns-tunneling"></a>
-* [16. DNS Rebinding](#16-dns-rebinding) <a name="16-dns-rebinding"></a>
-* [17. DNS-based Command and Control (C2)](#17-dns-based-command-and-control-c2) <a name="17-dns-based-command-and-control-c2"></a>
-* [18. DNS Water Torture Attack](#18-dns-water-torture-attack) <a name="18-dns-water-torture-attack"></a>
+* [15. DNS Tunneling](#15-dns-tunneling)
+* [16. DNS Rebinding](#16-dns-rebinding)
+* [17. DNS-based Command and Control (C2)](#17-dns-based-command-and-control-c2)
+* [18. DNS Water Torture Attack](#18-dns-water-torture-attack)
 
 ### 🧨 Amplification & Reflection
 
-* [19. DNS Amplification Attack](#19-dns-amplification-attack) <a name="19-dns-amplification-attack"></a>
-* [20. DNS Reflection Attack](#20-dns-reflection-attack) <a name="20-dns-reflection-attack"></a>
-* [21. DNS Flood Attack](#21-dns-flood-attack) <a name="21-dns-flood-attack"></a>
+* [19. DNS Amplification Attack](#19-dns-amplification-attack)
+* [20. DNS Reflection Attack](#20-dns-reflection-attack)
+* [21. DNS Flood Attack](#21-dns-flood-attack)
 
 ### 🧪 Stealth & Enumeration Bypass
 
-* [22. NXDOMAIN Flood Attack](#22-nxdomain-flood-attack) <a name="22-nxdomain-flood-attack"></a>
-* [23. Cache Snooping](#23-cache-snooping) <a name="23-cache-snooping"></a>
+* [22. NXDOMAIN Flood Attack](#22-nxdomain-flood-attack)
+* [23. Cache Snooping](#23-cache-snooping)
 
 ### 🧨 Misconfigurations & Exposure
 
-* [24. Dangling CNAME Exploit](#24-dangling-cname-exploit) <a name="24-dangling-cname-exploit"></a>
-* [25. Wildcard DNS Abuse](#25-wildcard-dns-abuse) <a name="25-wildcard-dns-abuse"></a>
-* [26. DNS Resolver Abuse](#26-dns-resolver-abuse) <a name="26-dns-resolver-abuse"></a>
-* [27. DNS Resource Exhaustion](#27-dns-resource-exhaustion) <a name="27-dns-resource-exhaustion"></a>
-* [28. DNS Over TCP Exploits](#28-dns-over-tcp-exploits) <a name="28-dns-over-tcp-exploits"></a>
-* [29. Broken Root Hints Exploitation](#29-broken-root-hints-exploitation) <a name="29-broken-root-hints-exploitation"></a>
-* [30. DNSSEC Key Management Abuse](#30-dnssec-key-management-abuse) <a name="30-dnssec-key-management-abuse"></a>
+* [24. Dangling CNAME Exploit](#24-dangling-cname-exploit)
+* [25. Wildcard DNS Abuse](#25-wildcard-dns-abuse)
+* [26. DNS Resolver Abuse](#26-dns-resolver-abuse)
+* [27. DNS Resource Exhaustion](#27-dns-resource-exhaustion)
+* [28. DNS Over TCP Exploits](#28-dns-over-tcp-exploits)
+* [29. Broken Root Hints Exploitation](#29-broken-root-hints-exploitation)
+* [30. DNSSEC Key Management Abuse](#30-dnssec-key-management-abuse)
 
 ### 👤 Identity & Ownership Exploits
 
-* [31. Domain Shadowing](#31-domain-shadowing) <a name="31-domain-shadowing"></a>
-* [32. Malicious Fast-Flux DNS](#32-malicious-fast-flux-dns) <a name="32-malicious-fast-flux-dns"></a>
-* [33. Domain Fronting](#33-domain-fronting) <a name="33-domain-fronting"></a>
-* [34. Dynamic DNS Hijacking](#34-dynamic-dns-hijacking) <a name="34-dynamic-dns-hijacking"></a>
+* [31. Domain Shadowing](#31-domain-shadowing)
+* [32. Malicious Fast-Flux DNS](#32-malicious-fast-flux-dns)
+* [33. Domain Fronting](#33-domain-fronting)
+* [34. Dynamic DNS Hijacking](#34-dynamic-dns-hijacking)
 
 ### ⚠️ Hijacking & Redirection
 
-* [35. DNS Hijacking (including BGP-level)](#35-dns-hijacking-including-bgp-level) <a name="35-dns-hijacking-including-bgp-level"></a>
-* [36. DNS Hijacking via Router Compromise](#36-dns-hijacking-via-router-compromise) <a name="36-dns-hijacking-via-router-compromise"></a>
-* [37. DNS MITM (Man-in-the-Middle)](#37-dns-mitm-man-in-the-middle) <a name="37-dns-mitm-man-in-the-middle"></a>
+* [35. DNS Hijacking (including BGP-level)](#35-dns-hijacking-including-bgp-level)
+* [36. DNS Hijacking via Router Compromise](#36-dns-hijacking-via-router-compromise)
+* [37. DNS MITM (Man-in-the-Middle)](#37-dns-mitm-man-in-the-middle)
 
 ### 🔐 Encrypted DNS Abuse
 
-* [38. DNS over HTTPS (DoH) Abuse](#38-dns-over-https-doh-abuse) <a name="38-dns-over-https-doh-abuse"></a>
-* [39. DNS over TLS (DoT) Interception](#39-dns-over-tls-dot-interception) <a name="39-dns-over-tls-dot-interception"></a>
+* [38. DNS over HTTPS (DoH) Abuse](#38-dns-over-https-doh-abuse)
+* [39. DNS over TLS (DoT) Interception](#39-dns-over-tls-dot-interception)
 
 ----------
 
